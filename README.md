@@ -20,7 +20,7 @@ This repo holds my class notes, compiled into clean PDFs for easy sharing and st
 ### Folder Structure
 Notes are organized by semester and class for logical navigation:
 - **1.Semester/**: First-semester courses (e.g., `IVP/`, `PKV/`, `PRO-1/`, `ZP-1/`).
-- **2.Semester/**: Second-semester courses (add yours here!).
+- **2.Semester/**: Second-semester courses.
 - Each class folder (e.g., `ZP-1/`) is a self-contained "project":
   - **`ZP-1.typ`**: The main file—sets global attributes like page size, fonts, and imports all lessons.
   - Subfolders (e.g., `1_info/`, `2_uvod/`): One per lesson/topic, with individual `.typ` files (e.g., `info.typ`).
@@ -38,7 +38,7 @@ This setup lets me:
 5. Commit your changes and open a PR!
 
 ## Theme
-The theme im using for this project is [Catppuccin Mocha](https://https://catppuccin.com/palette/). Its my personal favourite theme and I use it everywhere! If you wish to contribute, please keep this theme in mind. 
+The theme im using for this project is [Catppuccin Mocha](https://catppuccin.com/palette/). Its my personal favourite theme and I use it everywhere! If you wish to contribute, please keep this theme in mind. 
 
 ## 🙌 Thanks & Next Steps
 Huge thanks for stopping by! If this helps with your studies, star the repo or share it. What's one thing you'd love to see added? Drop it in an issue—let's make these notes the go-to resource for VSŠ L.I.V.E RAI. 
