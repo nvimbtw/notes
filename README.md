@@ -1,4 +1,4 @@
-# 📚 VSŠ L.I.V.E RAI Notes
+# 📚 VSŠ L.I.V.E. RAI Notes
 
 Welcome to my personal notes repository for the **VSŠ L.I.V.E RAI** program! These are my study materials, organized for clarity and easy expansion. Whether you're a fellow student, tutor, or just curious, I'd love your input to make these notes even better. Let's collaborate and build something awesome together! 
 
