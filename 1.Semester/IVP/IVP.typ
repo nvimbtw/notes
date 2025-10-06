@@ -27,3 +27,5 @@
   ],
 )
 
+#include "1_uvod/uvod.typ"
+#include "2_informatika/informatika.typ"
