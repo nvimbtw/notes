@@ -26,3 +26,8 @@
     #it
   ],
 )
+
+#include "1_uvod/uvod.typ"
+#include "2_komunikacija/komunikacija.typ"
+#include "3_oblikeKomunikacije/oblikeKomunikacije.typ"
+#include "4_poslovnaKomunikacija/poslovnaKomunikacija.typ"

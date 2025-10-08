@@ -26,3 +26,5 @@
     #it
   ],
 )
+
+#include "1_uvod/uvod.typ"
