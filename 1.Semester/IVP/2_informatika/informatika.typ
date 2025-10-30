@@ -23,3 +23,48 @@
 - Raziskujte en primer uporabe UI, in napiši kratko refleksijo: zakaj je koristen ali problematičen?
   - Powerpoint predstavitev - Hokkaido University of Japan, AI predicts hydrogels
 
+= Kolokviji
+- Kolokvije bomo pisali pri vajah,
+- Datumi 1. kolokvijev:
+  - 10. 11. 2025 (1. skupina),
+  - 13. 11. 2025 (2. skupina),
+  - 14. 11. 2025 (3. skupina),
+- 4 prakticne naloge,
+
+= Zgodovina racunalnistva in racunalnikov
+- first programmable computer 1800
+- modern computer was developed in 1930s
+- 1941 first digita computer
+- abc - atanasov berry computer stores first data in memory
+- colossus - war times
+- eniac - ballistic analysis for ww2
+- transistors replace vacuum tubes - 1953
+- first lang cobol
+- 1970 intel - 1103 - dram
+- 1971 ibm floppy disk
+- altair 8800 - personal computer
+- 1976 - apple
+- 1977 - apple 2
+- 1981 - first ibm pc - ms dos
+- apple lisa - first gui
+- macintosh - first mouse i believe
+- dell - turbo pc
+- os2
+- imacs
+^ finish this
+
+== Osnove bitnega zapisa
+*Kaj je bitni zapis*
+Bitni zapis predstavlja podatke z uporabo nicel in enic ter je osnovna enota digitalnih informacij.
+
+*Uporaba v digitalnih napravah*
+Bitni zapis se uporablja za shranjevanje, prenos in obde
+
+== Zgradba racunalnika
+- vhodne enote
+- izhodne enote
+- motherboard
+- cpu
+- pomnilne enote
+
+
