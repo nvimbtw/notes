@@ -16,7 +16,7 @@
 
 == Osnovni pojmi
 === Podatkovna baza (Database)
-- Podatkovna baza predstavlja strukturirano shrambo med sebojno povezanih podatkov,
+- Podatkovna baza predstavlja strukturirano shrambo medsebojno povezanih podatkov,
 - Omogoča učinkovito shranjevanje, iskanje in vzdrževanje podatkov
 - Sama po sebi ne izvaja operacij, vendar deluje kot pasivna shramba podatkov, ki čaka na ukaze sistema za upravljanje. Brez SUPB je baza nedostopna za aplikacije in uporabnike.
 
@@ -37,7 +37,7 @@
 - lastnosti opisane z atributi: identifikator + opisni atributi -> Primer: Janez Novak,
 - Primeri:
   - Janez Novak,
-  - Rememberance of the earths past - Cixin Liu,
+  - Remembrance of Earth's Past - Cixin Liu,
   - A8 - Audi,
 
 === Entitetni tip

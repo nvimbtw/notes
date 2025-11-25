@@ -24,9 +24,9 @@ Informacija odstrani določeno stopnjo neznanja
 
 Osnovna količina informacije - bit:
 - 1bit $arrow.r$ 2 stanji
-- 2bit $arrow.r$ 4 stanji
-- 3bit $arrow.r$ 8 stanji
-- 4bit $arrow.r$ 16 stanji - nibble
+- 2bit $arrow.r$ 4 stanja
+- 3bit $arrow.r$ 8 stanj
+- 4bit $arrow.r$ 16 stanj - nibble
 
 === Kakovost informacije
 Informacija ni vedno kakovostna. Kakovost informacije se lahko razlikuje od:
@@ -34,7 +34,7 @@ Informacija ni vedno kakovostna. Kakovost informacije se lahko razlikuje od:
 + Točnosti - Informacija je točna, kadar je brez napak, pravilna in zanesljiva, ter natančno odraža realnost.
 + Pravočasnosti - Informacija je pravočasna, kadar je na voljo v času, ko je še relevantna in uporabna za odločanje.
 + Popolnosti - Informacija je popolna, kadar vključuje vse potrebne in relevantne podatke brez manjkajočih ali nepotrebnih elementov.
-+ Zgoščenosti - Informacija je zgoščena (ali koncizna), kadar je jedrnata, brez odvečnega ali ponavljajočega se vsebin, a hkrati ohranja bistvo
++ Zgoščenosti - Informacija je zgoščena (ali koncizna), kadar je jedrnata, brez odvečne ali ponavljajoče se vsebine, a hkrati ohranja bistvo
 + Ustreznosti - Informacija je ustrezna, kadar je primerna in relevantna za namen uporabe ter kontekst, v katerem se uporablja.
 + Razumljivosti - Informacija je razumljiva, kadar je jasna, enostavna za interpretacijo in prilagojena ravni znanja uporabnika.
 + Objektivnosti - Informacija je objektivna, kadar je nepristranska, brez subjektivnih vplivov ali pristranskosti, ter temelji na dejstvih

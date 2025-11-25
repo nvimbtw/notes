@@ -26,12 +26,12 @@ Podatkovna baza je model okolja, ki služi kot osnova za sprejemanje odločitev 
 === Zagotavljanje zaupnosti podatkov
 - Mehanizmi za upravljanje dostopa (ang.: Access control) uporabnikom omogočajo dostop le do tistih podatkov, ki jih glede na svojo vlogo potrebujejo - potreba po vedenju (ang.: Need to know).
 - Pri tem se določi tudi vrsta dostopa (branje, spreminjanje, brisanje, spreminjanje strukture...).
-- Upravljanje z pravicami dostopa je ena ključnih nalog administratorja podatkovne baze.
+- Upravljanje s pravicami dostopa je ena ključnih nalog administratorja podatkovne baze.
 
 == Arhitektura podatkovne baze
 V poslovnih sistemih zaposleni uporabljajo poslovni informacijski sistem le z vidika opravljanja svojih delovnih funkcij. Le v manjših poslovnih okoljih morajo uporabljati celoten informacijski sistem (ki je v teh primerih nekoliko preprostejši).
 
-Arhitektura zbirke podatkov predstavlja ralične nivoje abstrakcije podatkov.
+Arhitektura zbirke podatkov predstavlja različne nivoje abstrakcije podatkov.
 
 *Tri-nivojska arhitektura:*
 - Zunanji nivo
@@ -41,19 +41,19 @@ Arhitektura zbirke podatkov predstavlja ralične nivoje abstrakcije podatkov.
 *PB omogoča podatkovno neodvisnost*
 
 Programi so neodvisni od fizičnega načina shranjevanja in strukturiranja podatkov v PB. Da bi dosegli podatkovno neodvisnost podatke v PB opišemo na treh ravneh:
-+ Zunanja shema - se uporablja za dostop podatkov, ki je prilagojen določenemu uporabniku ali skupini uporabnikov. Vsaka zunanja shema se sestoji iz enega ali več pogledov (views). Pogled je logična tabela, ki ne obstaja v fizični podatkovni bazi.
++ Zunanja shema - se uporablja za dostop do podatkov, ki je prilagojen določenemu uporabniku ali skupini uporabnikov. Vsaka zunanja shema se sestoji iz enega ali več pogledov (views). Pogled je logična tabela, ki ne obstaja v fizični podatkovni bazi.
 + Konceptualna ali logična shema - opisuje podatke z vidika podatkovnega modela, ki ga PB uporablja. Npr. podatki o entitetnih tipih (profesor, študent, predmet, predavalnica, ...) in povezavah (predava, posluša...).
 + Fizična (notranja) shema - fizična shema podaja podrobnosti o shranjevanju podatkov. Predstavi, kako so podatki iz konceptualne sheme dejansko shranjeni (npr. na disku), kako so shranjeni indeksi...
 
 #image("../media/arhitektura-podatkovne-baze.png")
 
 == Podatkovna neodvisnost
-Poznamo dve vrsti podatkovne neodvisnosi:
+Poznamo dve vrsti podatkovne neodvisnosti:
 - *Fizično neodvisnost*
 - *Logično neodvisnost*
 
 === Fizična neodvisnost
-konceptualna shema zagotavlja fizično podatkovno neodvisnost, saj skrije podrobnosti o tem, kako so podatki dejansko shranjeni na disku, o strukturi datotek in o indeksih. Dokler ostaja konceptualna shema nespremenjena, spremembe na fizičnem nivoju ne vplivajo pa programe, ki podatke uporabljajo. Lahko pa spremembe vplivajo na učinkovitost.
+konceptualna shema zagotavlja fizično podatkovno neodvisnost, saj skrije podrobnosti o tem, kako so podatki dejansko shranjeni na disku, o strukturi datotek in o indeksih. Dokler ostaja konceptualna shema nespremenjena, spremembe na fizičnem nivoju ne vplivajo na programe, ki podatke uporabljajo. Lahko pa spremembe vplivajo na učinkovitost.
 
 === Logična podatkovna neodvisnost
 Logična neodvisnost zagotavlja, da spremembe v konceptualni shemi (npr. dodajanje novih tabel ali atributov) ne vplivajo na zunanje poglede ali aplikacijske programe. Zunanja shema skrije podrobnosti konceptualne sheme, zato dokler ostaja zunanja shema nespremenjena, spremembe na logičnem nivoju ne zahtevajo prilagajanja programov, ki podatke uporabljajo. To olajša razširjanje baze brez motenj obstoječih aplikacij.
